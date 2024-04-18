@@ -26,7 +26,7 @@ export PYTHONIOENCODING='UTF-8'
 
 # npm global
 export NPM_PACKAGES="/usr/local/npm_packages"
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+# export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 export PATH="$NPM_PACKAGES/bin:$PATH"
 
 # yarn
@@ -42,11 +42,11 @@ export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --smart-case --glob "!.
 # depot tools
 export PATH=$PATH:$HOME/depot_tools
 
-# android
-export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
-if [ -d $ANDROID_SDK_ROOT ]; then
-  PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$PATH"
-fi
+# # android
+# export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+# if [ -d $ANDROID_SDK_ROOT ]; then
+#   PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$PATH"
+# fi
 
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.rgrc
@@ -68,3 +68,8 @@ export PATH=$PNPM_HOME:$PATH
 
 # direnv
 eval "$(direnv hook zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+

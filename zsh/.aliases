@@ -120,17 +120,17 @@ alias rm="grm -v"
 alias shred="gshred"
 
 # special filetypes
-alias link="glink"
-alias unlink="gunlink"
-alias mkdir="gmkdir -v"
-alias rmdir="grmdir -v"
-alias readlink="greadlink"
+# alias link="glink"
+# alias unlink="gunlink"
+# alias mkdir="gmkdir -v"
+# alias rmdir="grmdir -v"
+# alias readlink="greadlink"
 
 # changing file attributes
-alias chmod="gchmod -v"
-alias chown="gchown -v"
-alias chgrp="gchgrp -v"
-alias touch="gtouch"
+# alias chmod="gchmod -v"
+# alias chown="gchown -v"
+# alias chgrp="gchgrp -v"
+# alias touch="gtouch"
 
 # disk usage
 alias df="gdf"
@@ -139,49 +139,49 @@ alias stat="gstat"
 alias sync="gsync"
 alias truncate="gtruncate"
 
-# printing text
-alias echo="gecho"
-alias printf="gprintf"
+# # printing text
+# alias echo="gecho"
+# alias printf="gprintf"
 
-# redirection
-alias tee="gtee"
+# # redirection
+# alias tee="gtee"
 
-# the rest
-alias awk="gawk"
-alias grep="ggrep --color"
+# # the rest
+# alias awk="gawk"
+# alias grep="ggrep --color"
 
-alias ln="gln"
-alias ln-sym="gln -nsf" # symlinks
+# alias ln="gln"
+# alias ln-sym="gln -nsf" # symlinks
 
-# findutils
-alias find="gfind"
-alias locate="glocate"
-alias updatedb="gupdatedb"
-alias xargs="gxargs"
+# # findutils
+# alias find="gfind"
+# alias locate="glocate"
+# alias updatedb="gupdatedb"
+# alias xargs="gxargs"
 
-# binutils
-alias addr2line="gaddr2line"
-alias ar="gar"
-alias c++filt="gc++filt"
-alias dlltool="gdlltool"
-alias nlmconv="gnlmconv"
-alias nm="gnm"
-alias objcopy="gobjcopy"
-alias objdump="gobjdump"
-alias ranlib="granlib"
-alias readelf="greadelf"
-alias size="gsize"
-alias strings="gstrings" # lol
-alias strip="gstrip"
+# # binutils
+# alias addr2line="gaddr2line"
+# alias ar="gar"
+# alias c++filt="gc++filt"
+# alias dlltool="gdlltool"
+# alias nlmconv="gnlmconv"
+# alias nm="gnm"
+# alias objcopy="gobjcopy"
+# alias objdump="gobjdump"
+# alias ranlib="granlib"
+# alias readelf="greadelf"
+# alias size="gsize"
+# alias strings="gstrings" # lol
+# alias strip="gstrip"
 
-# tar
-alias tar="gtar"
+# # tar
+# alias tar="gtar"
 
-# sed
-alias sed="gsed"
+# # sed
+# alias sed="gsed"
 
-# which
-alias which="gwhich"
+# # which
+# alias which="gwhich"
 
 # npm
 alias nin="npm init"
